@@ -8,12 +8,10 @@ function randomValueFromArray(array){
 }
 
 const storyText = 'その日はとても寒かった。:insertx:は出かけた。彼らが到着した時:inserty:体重50kgの:insertx:は驚いていたが、:insertz:は驚くことはなかった。:insertx:ではよくあることだった。;
-const insertX = ['Willy the Goblin', 'Big Daddy', 'Father Christmas'];
-*/['スヌーピー','ミッキーマウス','サンタクロース']/*
-const insertY = ['the soup kitchen', 'Disneyland', 'the White House'];
-const insertZ = ['spontaneously combusted', 'melted into a puddle on the sidewalk', 'turned into a slug and crawled away'];
-*/['混雑していた。',’雪が降っていた。'];/*
-  
+const insertX = ['スヌーピー', 'ミッキーマウス', 'サンタクロース'];
+const insertY = ['the soup kitchen', 'ディズニィーランド', 'ホワイトハウス'];
+const insertZ = ['混雑していた', '雪が降っていた', 'turned into a slug and crawled away'];
+
 randomize.addEventListener('click', result);
 
 function result() {
